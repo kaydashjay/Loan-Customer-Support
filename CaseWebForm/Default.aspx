@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CaseWebForm._Default" %>
+﻿<%@ Page Title="Support" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CaseWebForm._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -43,7 +43,7 @@
     </div>
     <br>
     <div>
-        <asp:Button CssClass ="btn btn-default" ID="submit" runat="server" Text="Submit"  OnClick="submit_Click" />
+        <asp:Button CssClass ="btn btn-primary" ID="submit" runat="server" Text="Submit"  OnClick="submit_Click" />
     </div>
 
 

@@ -65,7 +65,7 @@ namespace CaseWebForm
                             Entity caseincident = service.Retrieve("incident", incidentid, new ColumnSet("ticketnumber"));
                             if (caseincident.Attributes.Contains("ticketnumber"))
                             {
-                                caseAlert.InnerText = "You have successfully submuitted your case. Case ID: " + caseincident["ticketnumber"].ToString();
+                                caseAlert.InnerText = "You have successfully submitted your case. Case ID: " + caseincident["ticketnumber"].ToString();
                                 caseAlert.Attributes.Add("class", "alert alert-success");
                                 caseAlert.Visible = true;
                             }
